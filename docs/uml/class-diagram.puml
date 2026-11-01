@@ -1,0 +1,32 @@
+@startuml
+class User {
+  +id: number
+  +name: string
+  +email: string
+  +passwordHash: string
+  +role: string
+}
+class Product {
+  +id: number
+  +name: string
+  +description: string
+  +price: number
+  +category: string
+  +stock: number
+}
+class CartItem {
+  +productId: number
+  +quantity: number
+}
+class Order {
+  +id: number
+  +orderNumber: string
+  +customerName: string
+  +email: string
+  +totalAmount: number
+  +status: string
+}
+User "1" -- "0..*" Order
+Order "1" -- "1..*" CartItem
+CartItem "*" -- "1" Product
+@enduml

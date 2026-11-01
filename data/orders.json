@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "orderNumber": "FS-20261101-0001",
+    "customerName": "Лиза",
+    "email": "lizapach932@gmail.com",
+    "phone": "+375 33 321-67-54",
+    "deliveryMethod": "pickup",
+    "deliveryAddress": "",
+    "items": [
+      {
+        "productId": 1,
+        "name": "Нежные пионы",
+        "quantity": 1,
+        "price": 89
+      },
+      {
+        "productId": 2,
+        "name": "Розовое облако",
+        "quantity": 1,
+        "price": 75
+      },
+      {
+        "productId": 3,
+        "name": "Ромашковое настроение",
+        "quantity": 1,
+        "price": 49
+      }
+    ],
+    "totalAmount": 213,
+    "status": "Новый",
+    "createdAt": "2026-11-01T13:25:54.284Z"
+  }
+]

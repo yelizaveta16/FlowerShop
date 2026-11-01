@@ -1,0 +1,15 @@
+@startuml
+actor Покупатель
+participant "Сайт" as Web
+participant "Express API" as API
+database "JSON-файлы" as JSON
+Покупатель -> Web: Оформить заказ
+Web -> API: POST /api/orders
+API -> JSON: Прочитать каталог
+JSON --> API: Товары и остатки
+API -> API: Проверить наличие и сумму
+API -> JSON: Сохранить заказ и обновить остатки
+JSON --> API: Успешная запись
+API --> Web: Номер заказа и сумма
+Web --> Покупатель: Показать подтверждение
+@enduml

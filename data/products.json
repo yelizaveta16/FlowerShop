@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Нежные пионы",
+    "description": "Пышный букет из сезонных пионов в нежной упаковке.",
+    "price": 89,
+    "category": "Пионы",
+    "imageUrl": "https://images.unsplash.com/photo-1563241527-3004b7be0ffd?auto=format&fit=crop&w=900&q=85",
+    "stock": 11,
+    "isActive": true
+  },
+  {
+    "id": 2,
+    "name": "Розовое облако",
+    "description": "Розовые розы и эвкалипт — воздушная композиция для особенного дня.",
+    "price": 75,
+    "category": "Розы",
+    "imageUrl": "https://images.unsplash.com/photo-1494972308805-463bc619d34e?auto=format&fit=crop&w=900&q=85",
+    "stock": 17,
+    "isActive": true
+  },
+  {
+    "id": 3,
+    "name": "Ромашковое настроение",
+    "description": "Лёгкий летний букет из белых ромашек и зелени.",
+    "price": 49,
+    "category": "Полевые цветы",
+    "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=900&q=85",
+    "stock": 14,
+    "isActive": true
+  },
+  {
+    "id": 4,
+    "name": "Классика в белом",
+    "description": "Элегантные белые розы в минималистичной упаковке.",
+    "price": 68,
+    "category": "Розы",
+    "imageUrl": "https://images.unsplash.com/photo-1562690868-60dd3d2d3a3e?auto=format&fit=crop&w=900&q=85",
+    "stock": 9,
+    "isActive": true
+  },
+  {
+    "id": 5,
+    "name": "Солнечный день",
+    "description": "Яркие жёлтые и кремовые цветы для хорошего настроения.",
+    "price": 57,
+    "category": "Авторские букеты",
+    "imageUrl": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=85",
+    "stock": 11,
+    "isActive": true
+  },
+  {
+    "id": 6,
+    "name": "Малиновый закат",
+    "description": "Выразительное сочетание розовых и малиновых оттенков.",
+    "price": 82,
+    "category": "Авторские букеты",
+    "imageUrl": "https://images.unsplash.com/photo-1520763185298-1b434c9194a?auto=format&fit=crop&w=900&q=85",
+    "stock": 7,
+    "isActive": true
+  }
+]

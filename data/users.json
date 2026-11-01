@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "name": "Лиза",
+    "email": "lizapach932@gmail.com",
+    "passwordHash": "$2a$12$r6hUqAE1VGZKxaN0yX/bH.HzckDvgDP0QmV30ouI.fc8MKinOoYNe",
+    "role": "customer"
+  }
+]

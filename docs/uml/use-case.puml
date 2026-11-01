@@ -1,0 +1,23 @@
+@startuml
+left to right direction
+actor "Гость" as Guest
+actor "Покупатель" as Customer
+rectangle "Flower Shop" {
+ usecase "Просмотреть каталог" as UC1
+ usecase "Искать и фильтровать товары" as UC2
+ usecase "Зарегистрироваться" as UC3
+ usecase "Войти" as UC4
+ usecase "Управлять корзиной" as UC5
+ usecase "Оформить заказ" as UC6
+ usecase "Выйти" as UC7
+}
+Guest --> UC1
+Guest --> UC2
+Guest --> UC3
+Guest --> UC4
+Customer --> UC1
+Customer --> UC2
+Customer --> UC5
+Customer --> UC6
+Customer --> UC7
+@enduml
