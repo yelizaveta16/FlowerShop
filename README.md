@@ -1,4 +1,4 @@
-# Flower Shop — версия без PostgreSQL
+# Flower Shop
 
 Учебный интернет-магазин цветов. Данные хранятся в JSON-файлах внутри папки `data`. PostgreSQL, MySQL и другие СУБД не нужны.
 
